@@ -15,14 +15,14 @@
       <file leaf-file-name="Labirintas.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Labirintas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="254" column="29" lean-forward="true" selection-start-line="254" selection-start-column="29" selection-end-line="254" selection-end-column="29" />
+            <state relative-caret-position="272">
+              <caret line="90" column="44" lean-forward="true" selection-start-line="90" selection-start-column="44" selection-end-line="90" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#375#384#0" expanded="true" />
-                <element signature="e#441#450#0" expanded="true" />
-                <element signature="e#508#517#0" expanded="true" />
-                <element signature="e#600#609#0" expanded="true" />
+                <element signature="e#395#404#0" expanded="true" />
+                <element signature="e#461#470#0" expanded="true" />
+                <element signature="e#528#537#0" expanded="true" />
+                <element signature="e#620#629#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -42,6 +42,7 @@
       <find>L</find>
       <find>X</find>
       <find>N</find>
+      <find>tot</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -233,12 +234,12 @@
       <updated>1505747128286</updated>
       <workItem from="1505747130281" duration="19410000" />
       <workItem from="1506020261591" duration="11479000" />
-      <workItem from="1506064484852" duration="5258000" />
+      <workItem from="1506064484852" duration="8180000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36147000" />
+    <option name="totallyTimeSpent" value="39069000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
@@ -253,7 +254,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33280757" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.052050475" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -290,10 +291,10 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#375#384#0" expanded="true" />
-            <element signature="e#441#450#0" expanded="true" />
-            <element signature="e#508#517#0" expanded="true" />
-            <element signature="e#600#609#0" expanded="true" />
+            <element signature="e#395#404#0" expanded="true" />
+            <element signature="e#461#470#0" expanded="true" />
+            <element signature="e#528#537#0" expanded="true" />
+            <element signature="e#620#629#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -304,24 +305,32 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#375#384#0" expanded="true" />
-            <element signature="e#441#450#0" expanded="true" />
-            <element signature="e#508#517#0" expanded="true" />
-            <element signature="e#600#609#0" expanded="true" />
+            <element signature="e#395#404#0" expanded="true" />
+            <element signature="e#461#470#0" expanded="true" />
+            <element signature="e#528#537#0" expanded="true" />
+            <element signature="e#620#629#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/io/BufferedWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Labirintas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="254" column="29" lean-forward="true" selection-start-line="254" selection-start-column="29" selection-end-line="254" selection-end-column="29" />
+        <state relative-caret-position="272">
+          <caret line="90" column="44" lean-forward="true" selection-start-line="90" selection-start-column="44" selection-end-line="90" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#375#384#0" expanded="true" />
-            <element signature="e#441#450#0" expanded="true" />
-            <element signature="e#508#517#0" expanded="true" />
-            <element signature="e#600#609#0" expanded="true" />
+            <element signature="e#395#404#0" expanded="true" />
+            <element signature="e#461#470#0" expanded="true" />
+            <element signature="e#528#537#0" expanded="true" />
+            <element signature="e#620#629#0" expanded="true" />
           </folding>
         </state>
       </provider>
