@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Labirintas {
     //static String filename = "file1.txt";
-    //static String filename = "file2.txt";
-    static String filename = "file3.txt";
+    static String filename /*= "file2.txt"*/;
+    //static String filename = "file3.txt";
     static File file = new File("result.txt");
     static BufferedWriter output = null;
     static int[][] LAB;
@@ -98,6 +98,12 @@ public class Labirintas {
     }
 
     public static void main(String[] args) throws IOException {
+        System.out.println("Pasirinkite lenta: 1 -> 7x7, 2 -> 20x15.");
+        if (scanner.nextInt() == 1){
+            filename = "file1.txt";
+        }else{
+            filename = "file2.txt";
+        }
         BufferedReader br = new BufferedReader(new FileReader(filename));
         output = new BufferedWriter(new FileWriter(file));
         String line;
@@ -229,8 +235,8 @@ public class Labirintas {
             System.out.print(String.format("%7s", + i) + " | ");
             output.write(String.format("%7s", + i) + " | ");
             for (int j = 1; j < numberCounter; j++) {
-                System.out.print(String.format("%2s", LAB[j][i]) + "  ");
-                output.write(String.format("%2s", LAB[j][i]) + "  ");
+                System.out.print(String.format("%3s", LAB[j][i]) + "  ");
+                output.write(String.format("%3s", LAB[j][i]) + "  ");
             }
             System.out.println();
             output.write('\n');
@@ -246,8 +252,8 @@ public class Labirintas {
         System.out.print("          ");
         output.write("          ");
         for (int j = 1; j < numberCounter; j++) {
-            System.out.print(String.format("%2s", j) + "  ");
-            output.write(String.format("%2s", j) + "  ");
+            System.out.print(String.format("%3s", j) + "  ");
+            output.write(String.format("%3s", j) + "  ");
         }
         System.out.println();
         System.out.println();
